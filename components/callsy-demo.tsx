@@ -849,7 +849,7 @@ function LiveDemoCard() {
                     <p className="text-xs text-muted-foreground">Click cancel — watch Callsy react in real time.</p>
                   </div>
                   <Button variant="destructive" className="gap-2 shrink-0" onClick={handleCancel} disabled={isLoading}>
-                    <IconPhoneOff className="size-4" />
+                    {/* <IconPhoneOff className="size-4" /> */}
                     Cancel Subscription
                   </Button>
                 </div>
